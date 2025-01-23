@@ -41,7 +41,7 @@ export default class Level00 extends Phaser.Scene {
     this.cursor = this.input.keyboard.createCursorKeys()
 
     // Erstelle das Spielerobjekt als rotes Rechteck.
-    this.player = this.add.rectangle(3 * 32, 4 * 32, 32, 32, 0xff0000)
+    this.player = this.add.rectangle(3 * 32, 4 * 32, 32, 32, 0x000080)
 
     // Stelle die Kamera so ein, dass sie dem Spieler folgt.
     this.cameras.main.startFollow(this.player)
