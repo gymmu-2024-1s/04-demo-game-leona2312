@@ -81,7 +81,7 @@ export default class LoadingScene extends Phaser.Scene {
       // Die Leertaste wurde gedrückt, jetzt möchten wir eine neue Szene laden.
       // Das was wir hier übergeben, ist der Schlüssel/Name der Szene, so wie
       // es im Konstruktor angegeben wurde.
-      this.scene.start("level-01")
+      this.scene.start("level-00")
     }
   }
 
@@ -111,12 +111,22 @@ export default class LoadingScene extends Phaser.Scene {
     })
 
     // TODO: Erstellen Sie die restlichen Animationen
-    // Hier wird die Animation für das Rechtslaufen erstellt.
+    // Hier wird die Animation für das linkslaufen erstellt.
     this.anims.create({
       key: "player_left",
       frames: this.anims.generateFrameNumbers("player", {
         start: 3,
         end: 5,
+      }),
+      frameRate: 10,
+      repeat: -1,
+    })
+
+    this.anims.create({
+      key: "player_up",
+      frames: this.anims.generateFrameNumbers("player", {
+        start: 9,
+        end: 11,
       }),
       frameRate: 10,
       repeat: -1,
