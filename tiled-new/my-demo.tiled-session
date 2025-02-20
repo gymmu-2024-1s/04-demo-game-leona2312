@@ -1,0 +1,21 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+    },
+    "last.exportedFilePath": "C:/Users/lonna/OneDrive/Desktop/Informatik/04-demo-game-leona2312/public/assets/maps",
+    "last.imagePath": "C:/Users/lonna/OneDrive/Desktop/Informatik/04-demo-game-leona2312/public/assets",
+    "map.lastUsedExportFilter": "Alle Dateien (*)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+    ],
+    "project": "my-demo.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

@@ -2,3 +2,4 @@ test-report.json
 node_modules
 docs
 tiled/demo-game.tiled-session
+tiled-new/demo-game.tiled-session
